@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1>
+
+
+LİSTELER
+
+<ul>                 
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+
+TABLOLAR
+
+<table> tablolar tr ile başlar tr ile biter  th ler başlık,td ler veri 
+<tr>                <th>Kod</th>   <th>Kod</th>   <th>Eğitmen </th>            <tr>
+<tr>                <td>Y01</td>   <td>C++</td>   <td>MeteHoca</td>            <tr>
+<tr>                <td>Y01</td>   <td>C++</td>   <td>MeteHoca</td>            <tr>
+<tr>                <td>Y01</td>   <td>C++</td>   <td>MeteHoca</td>            <tr>
+
+</table>
+
+
+
+
+
+color:red--metin rengi
+font-size--metin boyutu
+text-align:center--metni ortaya hizalar
+text-align:left--metni sola hizalar
+vertical-align:center; dikey olarak hücre ortasına hizalanır (tablolarda)
+background-color:red--arkaplan rengini kırmızı yapar
+padding--iç aralık--metinler arası (içerik ile kenarlık)
+margin--dış aralık--kutular arası  (kenarlık ve kutu)
+float:left; (yaslandırılan her kutu mümkün olan en sol ya da en sağ tarafa yaslanır, diğer nesneler float özelliği ile yaslanan kutunun etrafını sararlar)
+            (eğer nesnelerin kutu etrafını sarmasını istemiyorsanız clear özelliğini kullanırsınız)
+
+
+block-tüm satırı kaplar- h1,p,table,li,form,div
+inline-sadece bulundukları alanı kaplarlar- a,b,em,img,span,i 
+
+border-style:solid; -- düz çizgili çerçeve
+border-width:2px; -- çizgi kalınlığı
+border-color:red; -- çizgi rengi
+border-radius:20px; köşe yuvarlatma
+
+width:10px; genişlik
+height:40px; boy
+max-width:10px; yazılara rağmen kutunun boyutunun sabit kalması için 
+
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+(yukarıdakileri anlamı: width in veya height in boyutu padding ve border ekleseniz bile değişmez)
+
+display özelliği ile block olan birini inline, inline olan birini block yapabiliriz
+display:inline;
+display:block;
+
+
+
+position:static;  kutunun varsayılan değeri
+
+position:relative;
+left:50px;
+top:30px;
+(kutuyu 50px sağa,30px aşağı kaydır,,değerleri eksi olarak girersen ingilizcesini yazdığın yöne doğru gider)
+
+position:fixed;
+bottom:0px;
+right:0px;
+(tarayıcı penceresinin sağ alt köşesine kutu sabitlenir)
+
+position:absolute;
+top:50px;
+left:20px;
+[absolute genelde bir kutunun içine kutu koyacağımız zaman kullanılır,,içinde olduğu kutuya göre 50px aşağı 20px sağa kayar]
+
+
+z-index:1;
+z-index:-1;
+(hangi kutunun öne çıkmasını istiyorsanız onun z-index değerini 1 yapın(yani yüksek olan öne çıkar))
+
+overflow:auto;-- kutudan içerik taşarsa kaydırma çubuğu ekler
+
+***********************************
+display:flex;
+justify-content:center;
+***********************************
+ortada yan yana iki kutu için 
+div in içinde 2 div(kutu)
+ana div'e yukarıdaki özellikler
+
+***********************************
+
+TABLO VE MENU TASARIMI(menüler liste ile oluşturulur)
+
+border-collapse:collapse;  kenarlıkları tek çizgiye dönüştürme
+list-style-type:none;   madde imlerini kaldırır 
+
+
+div id="wrapper"
+************************************
+HEADER LOGO VEBANNER  /HEADER
+************************************
+NAV    MENU      /NAV
+************************************
+ASİDE   *  SECTİON                 *
+YANMENÜ *  İÇERİK(article/article) *
+/ASİDE  *           /SECTİON       *
+********* **************************
+FOOTER   SAYFAALTI   /FOOTER
+************************************
+/div
+
+kullanılan kenarlıkların varsayılan kalınlığı 3pxdir,yanyana gelen 4 kenarlık 12px yapar eğer aside'ın genişliği 150px ise bize 750 kalıyorsa 750-12 den 738px kalır 
+border-style:dashed;  ÇİZGİLİ çerçeve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </h1>  
+
+
+
+
+</body>
+</html>
